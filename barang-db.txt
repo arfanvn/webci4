@@ -1,0 +1,18 @@
+|] Browse Structure [J] SQL 4 Search SE Insert =} Export | Import =| Privileges ° Operations ® Tracking 3 Triggers
+
+SELECT * FROM “barang”
+
+[J Profiling [ Edit inline ][ Edit] [ Explain SQL JI Create PHP code ] [ Refresh |
+
+[J] Showall | Number of rows 25 v Filter rows: | Search this table Sort by key. | None
+| Extra options |
+To Vid nama harga stok gambar id kategori created by created date updated by updated date
+[0 Edt 3iCopy @ Delete 1 Yellow Sweater 75000 15 product 1.ipg 2 1 2022-06-26 04:49:12 NULL NULL
+DO Edit 3iCopy @Delete 2 Dusty Pink Crop Sweater 100000 15 product-2jpg 2 1 2022-06-26 04:49:12 NULL NULL
+DO Edt 3iCopy @ Delete 3 Green Jacket 250000 5 product-3jpg 1 1 2022-06-26 04:51:55 NULL NULL
+D Edit 3iCopy @ Delete 4 Grey Syal 50000 20 product-4jpg 3 1 2022-06-26 04:51:55 NULL NULL
+DO Edt 3iCopy @Delete 5 YelowBag 150000 49 product 7.ipg 3 1 2022-06-26 04:53:08 NULL NULL
+
+INSERT INTO `kategori` (`id`, `nama`, `created_by`, `updated_by`, `updated_date`) VALUES (NULL, 'Men', '1', NULL, NULL), (NULL, 'Women', '1', NULL, NULL), (NULL, 'Kid', '1', NULL, NULL);
+
+INSERT INTO `barang` (`id`, `nama`, `harga`, `stok`, `gambar`, `id_kategori`, `created_by`, `created_date`, `updated_by`, `updated_date`) VALUES (NULL, 'Yellow Sweater', '75000', '15', 'product-1.jpg', '2', '1', '2023-06-13 22:12:23.000000', NULL, NULL), (NULL, 'Dusty Pink Crop Sweater', '100000', '15', 'product-2.jpg', '2', '1', '2023-06-13 22:12:23.000000', NULL, NULL), (NULL, 'Green Jacket', '250000', '5', 'product-3.jpg', '1', '1', '2023-06-13 22:12:23.000000', NULL, NULL), (NULL, 'Grey Syal', '50000', '20', 'product-4.jpg', '3', '1', '2023-06-13 22:12:23.000000', NULL, NULL), (NULL, 'Yelow Bag', '150000', '49', 'product-7.jpg', '3', '1', '2023-06-13 22:12:23.000000', NULL, NULL);
